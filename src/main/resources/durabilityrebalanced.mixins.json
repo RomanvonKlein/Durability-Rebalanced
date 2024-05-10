@@ -3,7 +3,8 @@
 	"package": "com.romanvonklein.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"DurabilityRemovalItemStackServerMixin",
+		"EnchantmentsRemovalEnchantmentHelperServerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

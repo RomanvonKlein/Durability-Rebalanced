@@ -26,6 +26,10 @@
 		{
 			"config": "durabilityrebalanced.client.mixins.json",
 			"environment": "client"
+		},
+		{
+			"config": "durabilityrebalanced.server.mixins.json",
+			"environment": "server"
 		}
 	],
 	"depends": {

@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.romanvonklein.mixin.server",
+	"compatibilityLevel": "JAVA_17",
+	"server": [
+		"DurabilityRemovalItemStackServerMixin",
+		"RemoveEnchantmentsSimpleRegistryMixin",
+		"EnchantedBookItemMixin",
+		"EnchantmentsRemovalEnchantmentHelperServerMixin",
+		"EnchantmentRemovalTagEntryMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
