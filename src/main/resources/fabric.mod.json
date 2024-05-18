@@ -5,7 +5,7 @@
 	"name": "Durability Rebalanced",
 	"description": "This mod rebalances the Equipment durability systems by removing damage to items and instead drastically increasing crafting prices. ",
 	"authors": [
-		"Me!"
+		"RomanvonKlein"
 	],
 	"contact": {
 		"sources": "https://github.com/romanvonklein/durability "
@@ -22,15 +22,7 @@
 		]
 	},
 	"mixins": [
-		"durabilityrebalanced.mixins.json",
-		{
-			"config": "durabilityrebalanced.client.mixins.json",
-			"environment": "client"
-		},
-		{
-			"config": "durabilityrebalanced.server.mixins.json",
-			"environment": "server"
-		}
+		"durabilityrebalanced.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.0",
